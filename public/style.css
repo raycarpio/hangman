@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto|Lobster:400,400i,500|Rubik:500, 600");
+
+/* ELEMENTS */
+body {
+  text-align: center;
+  line-height: 25px;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  background: rgb(2,0,36);
+  background: linear-gradient(4deg, rgba(2,0,36,1) 0%, rgba(9,50,121,1) 0%, rgba(0,212,255,1) 100%);
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+  font-weight: 500;
+  color: white; 
+  text-shadow: 2px 2px #000000;
+}
+
+.style {
+  font-family: 'Lobster', cursive;
+  font-weight: 500;
+  font-size: 40px;
+  color: red; 
+  text-shadow: 2px 2px #000000;
+}
+
+h2 {
+  font-family: 'Lobster', cursive;
+  font-weight: 500;
+  color: white; 
+  text-shadow: 2px 2px #000000;
+}
+
+.underscore {
+  padding-top: 50px;	
+  font-size: 40px;
+  font-family: 'Lobster', cursive;
+  font-weight: 500;
+  color: white; 
+}
+
+/* -----------------------  START BOX. ------------------------- */
+.box {
+  display: flex;
+  }
+
+.zero {
+  flex: 1 1 auto;
+  border: 1px dashed white;
+  border-radius: 10px;
+  margin-left: 15px;
+  margin-bottom: 20px;
+  margin-top: 10%;
+  padding-left: 10px;
+  padding-bottom: 100px;
+  padding-right: 10px
+}
+
+.one {
+  flex: 1 1 auto;
+  border: 1px dashed white;
+  border-radius: 10px;
+  margin-left: 15px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px
+}
+
+.two {
+  flex: 1 1 auto;
+  border: 1px dashed white;
+  border-radius: 10px;
+  margin-left: 15px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px
+}
+
+.three {
+  flex: 1 1 auto;
+  border: 1px dashed white;
+  border-radius: 10px;
+  margin-left: 15px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px
+}
+/* -----------------------  END BOX. ------------------------- */
+
+/* -----------------------  START BUTTONS. ------------------------- */
+.button {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	background-color:#ffffff;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+  margin-top: 50px;
+}
+.button:hover {
+	background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+	background-color:#f6f6f6;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
+
+
+/* -----------------------  END BUTTONS. ------------------------- */
