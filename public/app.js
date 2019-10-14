@@ -18,7 +18,7 @@ fetch('http://localhost:8080/public/words.txt')
     startGame();
   })
 
-
+//-----------------------GAME FUNCTION ----------------------------------//
 function startGame() {
   // Arrays //
   let underScore = []; // returns underscores depending on length of word
@@ -57,7 +57,6 @@ function startGame() {
     let keycode = event.keyCode;
     let usersLetter = String.fromCharCode(keycode).toLowerCase();
 
-
     let i = 0;
 
     while (i < chosenWord.length) {
@@ -81,7 +80,6 @@ function startGame() {
       alert('Sorry, you lost. Try again! (◕ ︵ ◕)');
       location.reload();
     }
-
 
     if (underScore.join('') == chosenWord) {
       alert('Congratulations, you win! ٩(ˊ ᗜ ˋ *)و');
